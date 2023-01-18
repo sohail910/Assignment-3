@@ -231,11 +231,7 @@ def kmean_urban(dfind,datacot,df_indf):
     
     return dataonecountry
     
-    
-    
-    
-    
-   
+
     
     
 def kmean_pop(df_cot_pop,df_inda):
@@ -464,11 +460,5 @@ if __name__ == '__main__':
     kmean_pop(df_cot_pop,df_inda)
     australia_heatmap(origdata,"Australia")
     aruba_correlation_heatmap(origdata,"Aruba")
-    """
-    lst = ['HNP_StatsData','WDIData','EdStatsData']
-    # lst = ['HNP_StatsData','WDIData']
-    df_reind=select_restack("API.csv"):
-    df = joining(df_reind)
-    dff=dataruba(df)
-    """
+  
    
